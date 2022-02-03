@@ -1,0 +1,11 @@
+framework module PMOUISetter {
+  umbrella header "PMOUISetter.h"
+
+  export *
+  module * { export * }
+}
+
+module PMOUISetter.Swift {
+    header "PMOUISetter-Swift.h"
+    requires objc
+}
