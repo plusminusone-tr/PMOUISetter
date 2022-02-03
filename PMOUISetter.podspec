@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|
     s.name         = "PMOUISetter"
-    s.version      = "0.0.2"
+    s.version      = "0.0.3"
     s.summary      = "PMOUISetter: PMOUISetter"
     s.description  = "Helper for UIKit UI Elements."
-    s.homepage     = "https://www.plusminusone.co"
+    s.homepage     = "https://cocoapods.org/pods/PMOUISetter"
     s.license = { :type => "MIT", :file => "LICENSE" }
     s.author             = { "PlusMinusOne Dev Team" => "devteam@plusminusone.co" }
     s.source       = { :git => "https://github.com/plusminusone-tr/PMOUISetter.git", :branch => "main", :tag => "#{s.version}" }
