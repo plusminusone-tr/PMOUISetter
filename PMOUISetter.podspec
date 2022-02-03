@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
     s.name         = "PMOUISetter"
-    s.version      = "0.0.1"
+    s.version      = "0.0.2"
     s.summary      = "PMOUISetter: PMOUISetter"
-    s.description  = "Helper for UI Elements."
+    s.description  = "Helper for UIKit UI Elements."
     s.homepage     = "https://www.plusminusone.co"
     s.license = { :type => "MIT", :file => "LICENSE" }
     s.author             = { "PlusMinusOne Dev Team" => "devteam@plusminusone.co" }
