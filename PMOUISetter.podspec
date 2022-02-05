@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "PMOUISetter"
-    s.version      = "0.0.8"
+    s.version      = "0.0.9"
     s.summary      = "PMOUISetter: PMOUISetter"
     s.description  = "Helper for UIKit UI Elements."
     s.homepage     = "https://github.com/plusminusone-tr/PMOUISetter.git"
