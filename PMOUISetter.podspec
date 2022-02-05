@@ -7,9 +7,9 @@ Pod::Spec.new do |s|
     s.license = { :type => "MIT", :file => "LICENSE" }
     s.author             = { "PlusMinusOne Dev Team" => "devteam@plusminusone.co" }
     s.source       = { :git => "https://github.com/plusminusone-tr/PMOUISetter.git", :branch => "main", :tag => "#{s.version}" }
-    s.source_files      = 'PMOUISetter*'
     s.vendored_frameworks = "PMOUISetter.xcframework"
     s.platform = :ios
     s.swift_version = "5.5"
     s.ios.deployment_target  = '11.0'
+    s.requires_arc = true
 end
