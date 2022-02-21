@@ -1,8 +1,8 @@
 # PMOUISetter
-[![License](https://img.shields.io/cocoapods/l/PMOUISetter?color=a)]
-[![SPM supported](https://img.shields.io/badge/SPM-supported-DE5C43.svg?style=flat)]
-[![Version](https://img.shields.io/cocoapods/v/PMOUISetter)]
-[![Platform](https://img.shields.io/cocoapods/p/PMOUISetter?color=green)]
+![License](https://img.shields.io/cocoapods/l/PMOUISetter?color=a)
+![SPM supported](https://img.shields.io/badge/SPM-supported-DE5C43.svg?style=flat)
+![Version](https://img.shields.io/cocoapods/v/PMOUISetter)
+![Platform](https://img.shields.io/cocoapods/p/PMOUISetter?color=green)
 
 Helper for UI Elements
 
