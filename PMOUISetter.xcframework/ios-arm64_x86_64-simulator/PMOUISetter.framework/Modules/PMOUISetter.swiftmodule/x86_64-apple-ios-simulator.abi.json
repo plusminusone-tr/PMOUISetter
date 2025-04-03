@@ -1,0 +1,5059 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "PMOUISetter",
+    "printedName": "PMOUISetter",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PMOUISetter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PMOUISetter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PMOUISetter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PMOUISetter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PMOUISetter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PMOUISetter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PMOUISetter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PMOUISetter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PMOUISetter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PMOUISetter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PMOUISetter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BaseUISetterProtocol",
+        "printedName": "BaseUISetterProtocol",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "backgroundColor",
+            "printedName": "backgroundColor(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11PMOUISetter20BaseUISetterProtocolPAASo6UIViewCRbzrlE15backgroundColoryxSo7UIColorCSgF",
+            "mangledName": "$s11PMOUISetter20BaseUISetterProtocolPAASo6UIViewCRbzrlE15backgroundColoryxSo7UIColorCSgF",
+            "moduleName": "PMOUISetter",
+            "genericSig": "<τ_0_0 where τ_0_0 : UIKit.UIView>",
+            "sugared_genericSig": "<Self where Self : UIKit.UIView>",
+            "declAttributes": [
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cornerRadius",
+            "printedName": "cornerRadius(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11PMOUISetter20BaseUISetterProtocolPAASo6UIViewCRbzrlE12cornerRadiusyx14CoreFoundation7CGFloatVF",
+            "mangledName": "$s11PMOUISetter20BaseUISetterProtocolPAASo6UIViewCRbzrlE12cornerRadiusyx12CoreGraphics7CGFloatVF",
+            "moduleName": "PMOUISetter",
+            "genericSig": "<τ_0_0 where τ_0_0 : UIKit.UIView>",
+            "sugared_genericSig": "<Self where Self : UIKit.UIView>",
+            "declAttributes": [
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "alpha",
+            "printedName": "alpha(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11PMOUISetter20BaseUISetterProtocolPAASo6UIViewCRbzrlE5alphayx14CoreFoundation7CGFloatVF",
+            "mangledName": "$s11PMOUISetter20BaseUISetterProtocolPAASo6UIViewCRbzrlE5alphayx12CoreGraphics7CGFloatVF",
+            "moduleName": "PMOUISetter",
+            "genericSig": "<τ_0_0 where τ_0_0 : UIKit.UIView>",
+            "sugared_genericSig": "<Self where Self : UIKit.UIView>",
+            "declAttributes": [
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isHidden",
+            "printedName": "isHidden(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11PMOUISetter20BaseUISetterProtocolPAASo6UIViewCRbzrlE8isHiddenyxSbF",
+            "mangledName": "$s11PMOUISetter20BaseUISetterProtocolPAASo6UIViewCRbzrlE8isHiddenyxSbF",
+            "moduleName": "PMOUISetter",
+            "genericSig": "<τ_0_0 where τ_0_0 : UIKit.UIView>",
+            "sugared_genericSig": "<Self where Self : UIKit.UIView>",
+            "declAttributes": [
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isAccessibilityElement",
+            "printedName": "isAccessibilityElement(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11PMOUISetter20BaseUISetterProtocolPAASo6UIViewCRbzrlE22isAccessibilityElementyxSbF",
+            "mangledName": "$s11PMOUISetter20BaseUISetterProtocolPAASo6UIViewCRbzrlE22isAccessibilityElementyxSbF",
+            "moduleName": "PMOUISetter",
+            "genericSig": "<τ_0_0 where τ_0_0 : UIKit.UIView>",
+            "sugared_genericSig": "<Self where Self : UIKit.UIView>",
+            "declAttributes": [
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "accessibilityIdentifier",
+            "printedName": "accessibilityIdentifier(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11PMOUISetter20BaseUISetterProtocolPAASo6UIViewCRbzrlE23accessibilityIdentifieryxSSSgF",
+            "mangledName": "$s11PMOUISetter20BaseUISetterProtocolPAASo6UIViewCRbzrlE23accessibilityIdentifieryxSSSgF",
+            "moduleName": "PMOUISetter",
+            "genericSig": "<τ_0_0 where τ_0_0 : UIKit.UIView>",
+            "sugared_genericSig": "<Self where Self : UIKit.UIView>",
+            "declAttributes": [
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isUserInteractionEnabled",
+            "printedName": "isUserInteractionEnabled(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11PMOUISetter20BaseUISetterProtocolPAASo6UIViewCRbzrlE24isUserInteractionEnabledyxSbF",
+            "mangledName": "$s11PMOUISetter20BaseUISetterProtocolPAASo6UIViewCRbzrlE24isUserInteractionEnabledyxSbF",
+            "moduleName": "PMOUISetter",
+            "genericSig": "<τ_0_0 where τ_0_0 : UIKit.UIView>",
+            "sugared_genericSig": "<Self where Self : UIKit.UIView>",
+            "declAttributes": [
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "contentMode",
+            "printedName": "contentMode(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ContentMode",
+                "printedName": "UIKit.UIView.ContentMode",
+                "usr": "c:@E@UIViewContentMode"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11PMOUISetter20BaseUISetterProtocolPAASo6UIViewCRbzrlE11contentModeyxSo0e7ContentG0VF",
+            "mangledName": "$s11PMOUISetter20BaseUISetterProtocolPAASo6UIViewCRbzrlE11contentModeyxSo0e7ContentG0VF",
+            "moduleName": "PMOUISetter",
+            "genericSig": "<τ_0_0 where τ_0_0 : UIKit.UIView>",
+            "sugared_genericSig": "<Self where Self : UIKit.UIView>",
+            "declAttributes": [
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:11PMOUISetter20BaseUISetterProtocolP",
+        "mangledName": "$s11PMOUISetter20BaseUISetterProtocolP",
+        "moduleName": "PMOUISetter",
+        "genericSig": "<τ_0_0 : PMOUISetter.Shadow>",
+        "sugared_genericSig": "<Self : PMOUISetter.Shadow>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Shadow",
+            "printedName": "Shadow",
+            "usr": "s:11PMOUISetter6ShadowP",
+            "mangledName": "$s11PMOUISetter6ShadowP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Shadow",
+        "printedName": "Shadow",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "applySketchShadow",
+            "printedName": "applySketchShadow(color:alpha:x:y:blur:spread:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "hasDefaultArg": true,
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11PMOUISetter6ShadowPAASo6UIViewCRbzrlE011applySketchB05color5alpha1x1y4blur6spreadxSo7UIColorC_Sf14CoreFoundation7CGFloatVA3QtF",
+            "mangledName": "$s11PMOUISetter6ShadowPAASo6UIViewCRbzrlE011applySketchB05color5alpha1x1y4blur6spreadxSo7UIColorC_Sf12CoreGraphics7CGFloatVA3QtF",
+            "moduleName": "PMOUISetter",
+            "genericSig": "<τ_0_0 where τ_0_0 : UIKit.UIView>",
+            "sugared_genericSig": "<Self where Self : UIKit.UIView>",
+            "declAttributes": [
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:11PMOUISetter6ShadowP",
+        "mangledName": "$s11PMOUISetter6ShadowP",
+        "moduleName": "PMOUISetter",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PMOUISetter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PMOUISetter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PMOUISetter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PMOUISetter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PMOUISetter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PMOUISetter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PMOUISetter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIImageView",
+        "printedName": "UIImageView",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "image",
+            "printedName": "image(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So11UIImageViewC11PMOUISetterE5imageyABXDSo0A0CSgF",
+            "mangledName": "$sSo11UIImageViewC11PMOUISetterE5imageyABXDSo0A0CSgF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "tintColor",
+            "printedName": "tintColor(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So11UIImageViewC11PMOUISetterE9tintColoryABXDSo7UIColorCF",
+            "mangledName": "$sSo11UIImageViewC11PMOUISetterE9tintColoryABXDSo7UIColorCF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "contentMode",
+            "printedName": "contentMode(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ContentMode",
+                "printedName": "UIKit.UIView.ContentMode",
+                "usr": "c:@E@UIViewContentMode"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So11UIImageViewC11PMOUISetterE11contentModeyABXDSo013UIViewContentE0VF",
+            "mangledName": "$sSo11UIImageViewC11PMOUISetterE11contentModeyABXDSo013UIViewContentE0VF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIImageView",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIImageView",
+        "declAttributes": [
+          "Preconcurrency",
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BaseUISetterProtocol",
+            "printedName": "BaseUISetterProtocol",
+            "usr": "s:11PMOUISetter20BaseUISetterProtocolP",
+            "mangledName": "$s11PMOUISetter20BaseUISetterProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Shadow",
+            "printedName": "Shadow",
+            "usr": "s:11PMOUISetter6ShadowP",
+            "mangledName": "$s11PMOUISetter6ShadowP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UICollectionView",
+        "printedName": "UICollectionView",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "layout",
+            "printedName": "layout(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionViewLayout",
+                "printedName": "UIKit.UICollectionViewLayout",
+                "usr": "c:objc(cs)UICollectionViewLayout"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So16UICollectionViewC11PMOUISetterE6layoutyABXDSo0aB6LayoutCF",
+            "mangledName": "$sSo16UICollectionViewC11PMOUISetterE6layoutyABXDSo0aB6LayoutCF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "delegate",
+            "printedName": "delegate(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionViewDelegate",
+                "printedName": "any UIKit.UICollectionViewDelegate",
+                "usr": "c:objc(pl)UICollectionViewDelegate"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So16UICollectionViewC11PMOUISetterE8delegateyABXDSo0aB8Delegate_pF",
+            "mangledName": "$sSo16UICollectionViewC11PMOUISetterE8delegateyABXDSo0aB8Delegate_pF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dataSource",
+            "printedName": "dataSource(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionViewDataSource",
+                "printedName": "any UIKit.UICollectionViewDataSource",
+                "usr": "c:objc(pl)UICollectionViewDataSource"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So16UICollectionViewC11PMOUISetterE10dataSourceyABXDSo0ab4DataE0_pF",
+            "mangledName": "$sSo16UICollectionViewC11PMOUISetterE10dataSourceyABXDSo0ab4DataE0_pF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "registerWithNib",
+            "printedName": "registerWithNib(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[UIKit.UICollectionViewCell.Type]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "UIKit.UICollectionViewCell.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UICollectionViewCell",
+                        "printedName": "UIKit.UICollectionViewCell",
+                        "usr": "c:objc(cs)UICollectionViewCell"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So16UICollectionViewC11PMOUISetterE15registerWithNibyABXDSo0aB4CellCmd_tF",
+            "mangledName": "$sSo16UICollectionViewC11PMOUISetterE15registerWithNibyABXDSo0aB4CellCmd_tF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "registerWithNib",
+            "printedName": "registerWithNib(_:forSupplementaryViewOfKind:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[UIKit.UICollectionReusableView.Type]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "UIKit.UICollectionReusableView.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UICollectionReusableView",
+                        "printedName": "UIKit.UICollectionReusableView",
+                        "usr": "c:objc(cs)UICollectionReusableView"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So16UICollectionViewC11PMOUISetterE15registerWithNib_016forSupplementaryB6OfKindABXDSo0a8ReusableB0Cmd_SStF",
+            "mangledName": "$sSo16UICollectionViewC11PMOUISetterE15registerWithNib_016forSupplementaryB6OfKindABXDSo0a8ReusableB0Cmd_SStF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "scrollDirection",
+            "printedName": "scrollDirection(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ScrollDirection",
+                "printedName": "UIKit.UICollectionView.ScrollDirection",
+                "usr": "c:@E@UICollectionViewScrollDirection"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So16UICollectionViewC11PMOUISetterE15scrollDirectionyABXDSo0ab6ScrollE0VF",
+            "mangledName": "$sSo16UICollectionViewC11PMOUISetterE15scrollDirectionyABXDSo0ab6ScrollE0VF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "estimatedItemSize",
+            "printedName": "estimatedItemSize(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So16UICollectionViewC11PMOUISetterE17estimatedItemSizeyABXDSo6CGSizeVF",
+            "mangledName": "$sSo16UICollectionViewC11PMOUISetterE17estimatedItemSizeyABXDSo6CGSizeVF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "allowsSelection",
+            "printedName": "allowsSelection(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So16UICollectionViewC11PMOUISetterE15allowsSelectionyABXDSbF",
+            "mangledName": "$sSo16UICollectionViewC11PMOUISetterE15allowsSelectionyABXDSbF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "allowsMultipleSelection",
+            "printedName": "allowsMultipleSelection(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So16UICollectionViewC11PMOUISetterE23allowsMultipleSelectionyABXDSbF",
+            "mangledName": "$sSo16UICollectionViewC11PMOUISetterE23allowsMultipleSelectionyABXDSbF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setVerticalScrollIndicatorVisible",
+            "printedName": "setVerticalScrollIndicatorVisible(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So16UICollectionViewC11PMOUISetterE33setVerticalScrollIndicatorVisibleyABXDSbF",
+            "mangledName": "$sSo16UICollectionViewC11PMOUISetterE33setVerticalScrollIndicatorVisibleyABXDSbF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setsHorizontalScrollIndicatorVisible",
+            "printedName": "setsHorizontalScrollIndicatorVisible(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So16UICollectionViewC11PMOUISetterE36setsHorizontalScrollIndicatorVisibleyABXDSbF",
+            "mangledName": "$sSo16UICollectionViewC11PMOUISetterE36setsHorizontalScrollIndicatorVisibleyABXDSbF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UICollectionView",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "6.0",
+        "objc_name": "UICollectionView",
+        "declAttributes": [
+          "Preconcurrency",
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIScrollView",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIScrollView",
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BaseUISetterProtocol",
+            "printedName": "BaseUISetterProtocol",
+            "usr": "s:11PMOUISetter20BaseUISetterProtocolP",
+            "mangledName": "$s11PMOUISetter20BaseUISetterProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Shadow",
+            "printedName": "Shadow",
+            "usr": "s:11PMOUISetter6ShadowP",
+            "mangledName": "$s11PMOUISetter6ShadowP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIView",
+        "printedName": "UIView",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "clipsToBounds",
+            "printedName": "clipsToBounds(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So6UIViewC11PMOUISetterE13clipsToBoundsyABXDSbF",
+            "mangledName": "$sSo6UIViewC11PMOUISetterE13clipsToBoundsyABXDSbF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "masksToBounds",
+            "printedName": "masksToBounds(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So6UIViewC11PMOUISetterE13masksToBoundsyABXDSbF",
+            "mangledName": "$sSo6UIViewC11PMOUISetterE13masksToBoundsyABXDSbF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "borderColor",
+            "printedName": "borderColor(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGColor",
+                "printedName": "CoreGraphics.CGColor",
+                "usr": "c:@T@CGColorRef"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So6UIViewC11PMOUISetterE11borderColoryABXDSo10CGColorRefaF",
+            "mangledName": "$sSo6UIViewC11PMOUISetterE11borderColoryABXDSo10CGColorRefaF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "borderWidth",
+            "printedName": "borderWidth(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So6UIViewC11PMOUISetterE11borderWidthyABXD14CoreFoundation7CGFloatVF",
+            "mangledName": "$sSo6UIViewC11PMOUISetterE11borderWidthyABXD12CoreGraphics7CGFloatVF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isOpaque",
+            "printedName": "isOpaque(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So6UIViewC11PMOUISetterE8isOpaqueyABXDSbF",
+            "mangledName": "$sSo6UIViewC11PMOUISetterE8isOpaqueyABXDSbF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIView",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIView",
+        "declAttributes": [
+          "Preconcurrency",
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIResponder",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BaseUISetterProtocol",
+            "printedName": "BaseUISetterProtocol",
+            "usr": "s:11PMOUISetter20BaseUISetterProtocolP",
+            "mangledName": "$s11PMOUISetter20BaseUISetterProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Shadow",
+            "printedName": "Shadow",
+            "usr": "s:11PMOUISetter6ShadowP",
+            "mangledName": "$s11PMOUISetter6ShadowP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UITextView",
+        "printedName": "UITextView",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "text",
+            "printedName": "text(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So10UITextViewC11PMOUISetterE4textyABXDSSF",
+            "mangledName": "$sSo10UITextViewC11PMOUISetterE4textyABXDSSF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "font",
+            "printedName": "font(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIFont?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIFont",
+                    "printedName": "UIKit.UIFont",
+                    "usr": "c:objc(cs)UIFont"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So10UITextViewC11PMOUISetterE4fontyABXDSo6UIFontCSgF",
+            "mangledName": "$sSo10UITextViewC11PMOUISetterE4fontyABXDSo6UIFontCSgF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "textColor",
+            "printedName": "textColor(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So10UITextViewC11PMOUISetterE9textColoryABXDSo7UIColorCSgF",
+            "mangledName": "$sSo10UITextViewC11PMOUISetterE9textColoryABXDSo7UIColorCSgF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "textAlignment",
+            "printedName": "textAlignment(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSTextAlignment",
+                "printedName": "UIKit.NSTextAlignment",
+                "usr": "c:@E@NSTextAlignment"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So10UITextViewC11PMOUISetterE13textAlignmentyABXDSo06NSTextE0VF",
+            "mangledName": "$sSo10UITextViewC11PMOUISetterE13textAlignmentyABXDSo06NSTextE0VF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isEditable",
+            "printedName": "isEditable(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So10UITextViewC11PMOUISetterE10isEditableyABXDSbF",
+            "mangledName": "$sSo10UITextViewC11PMOUISetterE10isEditableyABXDSbF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isSelectable",
+            "printedName": "isSelectable(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So10UITextViewC11PMOUISetterE12isSelectableyABXDSbF",
+            "mangledName": "$sSo10UITextViewC11PMOUISetterE12isSelectableyABXDSbF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "attributedText",
+            "printedName": "attributedText(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSAttributedString",
+                "printedName": "Foundation.NSAttributedString",
+                "usr": "c:objc(cs)NSAttributedString"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So10UITextViewC11PMOUISetterE14attributedTextyABXDSo18NSAttributedStringCF",
+            "mangledName": "$sSo10UITextViewC11PMOUISetterE14attributedTextyABXDSo18NSAttributedStringCF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "inputView",
+            "printedName": "inputView(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So10UITextViewC11PMOUISetterE05inputB0yABXDSo6UIViewCSgF",
+            "mangledName": "$sSo10UITextViewC11PMOUISetterE05inputB0yABXDSo6UIViewCSgF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "inputAccessoryView",
+            "printedName": "inputAccessoryView(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So10UITextViewC11PMOUISetterE014inputAccessoryB0yABXDSo6UIViewCSgF",
+            "mangledName": "$sSo10UITextViewC11PMOUISetterE014inputAccessoryB0yABXDSo6UIViewCSgF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "textContainerInset",
+            "printedName": "textContainerInset(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIEdgeInsets",
+                "printedName": "UIKit.UIEdgeInsets",
+                "usr": "c:@S@UIEdgeInsets"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So10UITextViewC11PMOUISetterE18textContainerInsetyABXDSo12UIEdgeInsetsVF",
+            "mangledName": "$sSo10UITextViewC11PMOUISetterE18textContainerInsetyABXDSo12UIEdgeInsetsVF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cornerRadius",
+            "printedName": "cornerRadius(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So10UITextViewC11PMOUISetterE12cornerRadiusyABXD14CoreFoundation7CGFloatVF",
+            "mangledName": "$sSo10UITextViewC11PMOUISetterE12cornerRadiusyABXD12CoreGraphics7CGFloatVF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UITextView",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UITextView",
+        "declAttributes": [
+          "Preconcurrency",
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIScrollView",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIScrollView",
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BaseUISetterProtocol",
+            "printedName": "BaseUISetterProtocol",
+            "usr": "s:11PMOUISetter20BaseUISetterProtocolP",
+            "mangledName": "$s11PMOUISetter20BaseUISetterProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Shadow",
+            "printedName": "Shadow",
+            "usr": "s:11PMOUISetter6ShadowP",
+            "mangledName": "$s11PMOUISetter6ShadowP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITextSearching",
+            "printedName": "UITextSearching",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "DocumentIdentifier",
+                "printedName": "DocumentIdentifier",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.AnyHashable?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnyHashable",
+                        "printedName": "Swift.AnyHashable",
+                        "usr": "s:s11AnyHashableV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:5UIKit15UITextSearchingP",
+            "mangledName": "$s5UIKit15UITextSearchingP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UITextField",
+        "printedName": "UITextField",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "text",
+            "printedName": "text(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So11UITextFieldC11PMOUISetterE4textyABXDSSSgF",
+            "mangledName": "$sSo11UITextFieldC11PMOUISetterE4textyABXDSSSgF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "textColor",
+            "printedName": "textColor(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So11UITextFieldC11PMOUISetterE9textColoryABXDSo7UIColorCSgF",
+            "mangledName": "$sSo11UITextFieldC11PMOUISetterE9textColoryABXDSo7UIColorCSgF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "font",
+            "printedName": "font(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIFont?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIFont",
+                    "printedName": "UIKit.UIFont",
+                    "usr": "c:objc(cs)UIFont"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So11UITextFieldC11PMOUISetterE4fontyABXDSo6UIFontCSgF",
+            "mangledName": "$sSo11UITextFieldC11PMOUISetterE4fontyABXDSo6UIFontCSgF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "textAlignment",
+            "printedName": "textAlignment(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSTextAlignment",
+                "printedName": "UIKit.NSTextAlignment",
+                "usr": "c:@E@NSTextAlignment"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So11UITextFieldC11PMOUISetterE13textAlignmentyABXDSo06NSTextE0VF",
+            "mangledName": "$sSo11UITextFieldC11PMOUISetterE13textAlignmentyABXDSo06NSTextE0VF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "borderStyle",
+            "printedName": "borderStyle(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BorderStyle",
+                "printedName": "UIKit.UITextField.BorderStyle",
+                "usr": "c:@E@UITextBorderStyle"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So11UITextFieldC11PMOUISetterE11borderStyleyABXDSo0a6BorderE0VF",
+            "mangledName": "$sSo11UITextFieldC11PMOUISetterE11borderStyleyABXDSo0a6BorderE0VF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "placeholder",
+            "printedName": "placeholder(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So11UITextFieldC11PMOUISetterE11placeholderyABXDSSSgF",
+            "mangledName": "$sSo11UITextFieldC11PMOUISetterE11placeholderyABXDSSSgF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adjustsFontSizeToFitWidth",
+            "printedName": "adjustsFontSizeToFitWidth(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So11UITextFieldC11PMOUISetterE25adjustsFontSizeToFitWidthyABXDSbF",
+            "mangledName": "$sSo11UITextFieldC11PMOUISetterE25adjustsFontSizeToFitWidthyABXDSbF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "minimumFontSize",
+            "printedName": "minimumFontSize(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So11UITextFieldC11PMOUISetterE15minimumFontSizeyABXD14CoreFoundation7CGFloatVF",
+            "mangledName": "$sSo11UITextFieldC11PMOUISetterE15minimumFontSizeyABXD12CoreGraphics7CGFloatVF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "leftView",
+            "printedName": "leftView(_:viewMode:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ViewMode",
+                "printedName": "UIKit.UITextField.ViewMode",
+                "usr": "c:@E@UITextFieldViewMode"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So11UITextFieldC11PMOUISetterE8leftView_8viewModeABXDSo6UIViewCSg_So0abeG0VtF",
+            "mangledName": "$sSo11UITextFieldC11PMOUISetterE8leftView_8viewModeABXDSo6UIViewCSg_So0abeG0VtF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "rightView",
+            "printedName": "rightView(_:viewMode:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ViewMode",
+                "printedName": "UIKit.UITextField.ViewMode",
+                "usr": "c:@E@UITextFieldViewMode"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So11UITextFieldC11PMOUISetterE9rightView_8viewModeABXDSo6UIViewCSg_So0abeG0VtF",
+            "mangledName": "$sSo11UITextFieldC11PMOUISetterE9rightView_8viewModeABXDSo6UIViewCSg_So0abeG0VtF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "inputView",
+            "printedName": "inputView(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So11UITextFieldC11PMOUISetterE9inputViewyABXDSo6UIViewCSgF",
+            "mangledName": "$sSo11UITextFieldC11PMOUISetterE9inputViewyABXDSo6UIViewCSgF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "inputAccessoryView",
+            "printedName": "inputAccessoryView(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So11UITextFieldC11PMOUISetterE18inputAccessoryViewyABXDSo6UIViewCSgF",
+            "mangledName": "$sSo11UITextFieldC11PMOUISetterE18inputAccessoryViewyABXDSo6UIViewCSgF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UITextField",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UITextField",
+        "declAttributes": [
+          "Preconcurrency",
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIControl",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIControl",
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BaseUISetterProtocol",
+            "printedName": "BaseUISetterProtocol",
+            "usr": "s:11PMOUISetter20BaseUISetterProtocolP",
+            "mangledName": "$s11PMOUISetter20BaseUISetterProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Shadow",
+            "printedName": "Shadow",
+            "usr": "s:11PMOUISetter6ShadowP",
+            "mangledName": "$s11PMOUISetter6ShadowP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UITableView",
+        "printedName": "UITableView",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "rowHeight",
+            "printedName": "rowHeight(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So11UITableViewC11PMOUISetterE9rowHeightyABXD14CoreFoundation7CGFloatVF",
+            "mangledName": "$sSo11UITableViewC11PMOUISetterE9rowHeightyABXD12CoreGraphics7CGFloatVF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "delegate",
+            "printedName": "delegate(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UITableViewDelegate",
+                "printedName": "any UIKit.UITableViewDelegate",
+                "usr": "c:objc(pl)UITableViewDelegate"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So11UITableViewC11PMOUISetterE8delegateyABXDSo0aB8Delegate_pF",
+            "mangledName": "$sSo11UITableViewC11PMOUISetterE8delegateyABXDSo0aB8Delegate_pF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dataSource",
+            "printedName": "dataSource(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UITableViewDataSource",
+                "printedName": "any UIKit.UITableViewDataSource",
+                "usr": "c:objc(pl)UITableViewDataSource"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So11UITableViewC11PMOUISetterE10dataSourceyABXDSo0ab4DataE0_pF",
+            "mangledName": "$sSo11UITableViewC11PMOUISetterE10dataSourceyABXDSo0ab4DataE0_pF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "registerWithNib",
+            "printedName": "registerWithNib(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[UIKit.UITableViewCell.Type]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "UIKit.UITableViewCell.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UITableViewCell",
+                        "printedName": "UIKit.UITableViewCell",
+                        "usr": "c:objc(cs)UITableViewCell"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So11UITableViewC11PMOUISetterE15registerWithNibyABXDSo0aB4CellCmd_tF",
+            "mangledName": "$sSo11UITableViewC11PMOUISetterE15registerWithNibyABXDSo0aB4CellCmd_tF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "registerWithNib",
+            "printedName": "registerWithNib(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[UIKit.UITableViewHeaderFooterView.Type]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "UIKit.UITableViewHeaderFooterView.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UITableViewHeaderFooterView",
+                        "printedName": "UIKit.UITableViewHeaderFooterView",
+                        "usr": "c:objc(cs)UITableViewHeaderFooterView"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So11UITableViewC11PMOUISetterE15registerWithNibyABXDSo0ab12HeaderFooterB0Cmd_tF",
+            "mangledName": "$sSo11UITableViewC11PMOUISetterE15registerWithNibyABXDSo0ab12HeaderFooterB0Cmd_tF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sectionHeaderHeight",
+            "printedName": "sectionHeaderHeight(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So11UITableViewC11PMOUISetterE19sectionHeaderHeightyABXD14CoreFoundation7CGFloatVF",
+            "mangledName": "$sSo11UITableViewC11PMOUISetterE19sectionHeaderHeightyABXD12CoreGraphics7CGFloatVF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sectionFooterHeight",
+            "printedName": "sectionFooterHeight(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So11UITableViewC11PMOUISetterE19sectionFooterHeightyABXD14CoreFoundation7CGFloatVF",
+            "mangledName": "$sSo11UITableViewC11PMOUISetterE19sectionFooterHeightyABXD12CoreGraphics7CGFloatVF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "estimatedRowHeight",
+            "printedName": "estimatedRowHeight(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So11UITableViewC11PMOUISetterE18estimatedRowHeightyABXD14CoreFoundation7CGFloatVF",
+            "mangledName": "$sSo11UITableViewC11PMOUISetterE18estimatedRowHeightyABXD12CoreGraphics7CGFloatVF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "estimatedSectionHeaderHeight",
+            "printedName": "estimatedSectionHeaderHeight(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So11UITableViewC11PMOUISetterE28estimatedSectionHeaderHeightyABXD14CoreFoundation7CGFloatVF",
+            "mangledName": "$sSo11UITableViewC11PMOUISetterE28estimatedSectionHeaderHeightyABXD12CoreGraphics7CGFloatVF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "estimatedSectionFooterHeight",
+            "printedName": "estimatedSectionFooterHeight(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So11UITableViewC11PMOUISetterE28estimatedSectionFooterHeightyABXD14CoreFoundation7CGFloatVF",
+            "mangledName": "$sSo11UITableViewC11PMOUISetterE28estimatedSectionFooterHeightyABXD12CoreGraphics7CGFloatVF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "separatorStyle",
+            "printedName": "separatorStyle(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SeparatorStyle",
+                "printedName": "UIKit.UITableViewCell.SeparatorStyle",
+                "usr": "c:@E@UITableViewCellSeparatorStyle"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So11UITableViewC11PMOUISetterE14separatorStyleyABXDSo0ab13CellSeparatorE0VF",
+            "mangledName": "$sSo11UITableViewC11PMOUISetterE14separatorStyleyABXDSo0ab13CellSeparatorE0VF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "separatorColor",
+            "printedName": "separatorColor(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So11UITableViewC11PMOUISetterE14separatorColoryABXDSo7UIColorCF",
+            "mangledName": "$sSo11UITableViewC11PMOUISetterE14separatorColoryABXDSo7UIColorCF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "separatorInset",
+            "printedName": "separatorInset(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIEdgeInsets",
+                "printedName": "UIKit.UIEdgeInsets",
+                "usr": "c:@S@UIEdgeInsets"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So11UITableViewC11PMOUISetterE14separatorInsetyABXDSo12UIEdgeInsetsVF",
+            "mangledName": "$sSo11UITableViewC11PMOUISetterE14separatorInsetyABXDSo12UIEdgeInsetsVF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "allowsMultipleSelection",
+            "printedName": "allowsMultipleSelection(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So11UITableViewC11PMOUISetterE23allowsMultipleSelectionyABXDSbF",
+            "mangledName": "$sSo11UITableViewC11PMOUISetterE23allowsMultipleSelectionyABXDSbF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UITableView",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UITableView",
+        "declAttributes": [
+          "Preconcurrency",
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIScrollView",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIScrollView",
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BaseUISetterProtocol",
+            "printedName": "BaseUISetterProtocol",
+            "usr": "s:11PMOUISetter20BaseUISetterProtocolP",
+            "mangledName": "$s11PMOUISetter20BaseUISetterProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Shadow",
+            "printedName": "Shadow",
+            "usr": "s:11PMOUISetter6ShadowP",
+            "mangledName": "$s11PMOUISetter6ShadowP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UILabel",
+        "printedName": "UILabel",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "text",
+            "printedName": "text(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So7UILabelC11PMOUISetterE4textyABXDSSSgF",
+            "mangledName": "$sSo7UILabelC11PMOUISetterE4textyABXDSSSgF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "textColor",
+            "printedName": "textColor(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So7UILabelC11PMOUISetterE9textColoryABXDSo7UIColorCF",
+            "mangledName": "$sSo7UILabelC11PMOUISetterE9textColoryABXDSo7UIColorCF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "font",
+            "printedName": "font(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIFont?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIFont",
+                    "printedName": "UIKit.UIFont",
+                    "usr": "c:objc(cs)UIFont"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So7UILabelC11PMOUISetterE4fontyABXDSo6UIFontCSgF",
+            "mangledName": "$sSo7UILabelC11PMOUISetterE4fontyABXDSo6UIFontCSgF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "textAlignment",
+            "printedName": "textAlignment(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSTextAlignment",
+                "printedName": "UIKit.NSTextAlignment",
+                "usr": "c:@E@NSTextAlignment"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So7UILabelC11PMOUISetterE13textAlignmentyABXDSo06NSTextD0VF",
+            "mangledName": "$sSo7UILabelC11PMOUISetterE13textAlignmentyABXDSo06NSTextD0VF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "numberOfLines",
+            "printedName": "numberOfLines(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So7UILabelC11PMOUISetterE13numberOfLinesyABXDSiF",
+            "mangledName": "$sSo7UILabelC11PMOUISetterE13numberOfLinesyABXDSiF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "attributedText",
+            "printedName": "attributedText(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSAttributedString",
+                "printedName": "Foundation.NSAttributedString",
+                "usr": "c:objc(cs)NSAttributedString"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So7UILabelC11PMOUISetterE14attributedTextyABXDSo18NSAttributedStringCF",
+            "mangledName": "$sSo7UILabelC11PMOUISetterE14attributedTextyABXDSo18NSAttributedStringCF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adjustsFontSizeToFitWidth",
+            "printedName": "adjustsFontSizeToFitWidth(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So7UILabelC11PMOUISetterE25adjustsFontSizeToFitWidthyABXDSbF",
+            "mangledName": "$sSo7UILabelC11PMOUISetterE25adjustsFontSizeToFitWidthyABXDSbF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "minimumScaleFactor",
+            "printedName": "minimumScaleFactor(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So7UILabelC11PMOUISetterE18minimumScaleFactoryABXD14CoreFoundation7CGFloatVF",
+            "mangledName": "$sSo7UILabelC11PMOUISetterE18minimumScaleFactoryABXD12CoreGraphics7CGFloatVF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "baselineAdjustment",
+            "printedName": "baselineAdjustment(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIBaselineAdjustment",
+                "printedName": "UIKit.UIBaselineAdjustment",
+                "usr": "c:@E@UIBaselineAdjustment"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So7UILabelC11PMOUISetterE18baselineAdjustmentyABXDSo010UIBaselineD0VF",
+            "mangledName": "$sSo7UILabelC11PMOUISetterE18baselineAdjustmentyABXDSo010UIBaselineD0VF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "lineBreakMode",
+            "printedName": "lineBreakMode(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSLineBreakMode",
+                "printedName": "UIKit.NSLineBreakMode",
+                "usr": "c:@E@NSLineBreakMode"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So7UILabelC11PMOUISetterE13lineBreakModeyABXDSo06NSLinedE0VF",
+            "mangledName": "$sSo7UILabelC11PMOUISetterE13lineBreakModeyABXDSo06NSLinedE0VF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UILabel",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UILabel",
+        "declAttributes": [
+          "Preconcurrency",
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BaseUISetterProtocol",
+            "printedName": "BaseUISetterProtocol",
+            "usr": "s:11PMOUISetter20BaseUISetterProtocolP",
+            "mangledName": "$s11PMOUISetter20BaseUISetterProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Shadow",
+            "printedName": "Shadow",
+            "usr": "s:11PMOUISetter6ShadowP",
+            "mangledName": "$s11PMOUISetter6ShadowP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIStackView",
+        "printedName": "UIStackView",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "axis",
+            "printedName": "axis(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Axis",
+                "printedName": "UIKit.NSLayoutConstraint.Axis",
+                "usr": "c:@E@UILayoutConstraintAxis"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So11UIStackViewC11PMOUISetterE4axisyABXDSo22UILayoutConstraintAxisVF",
+            "mangledName": "$sSo11UIStackViewC11PMOUISetterE4axisyABXDSo22UILayoutConstraintAxisVF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "spacing",
+            "printedName": "spacing(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So11UIStackViewC11PMOUISetterE7spacingyABXD14CoreFoundation7CGFloatVF",
+            "mangledName": "$sSo11UIStackViewC11PMOUISetterE7spacingyABXD12CoreGraphics7CGFloatVF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "alignment",
+            "printedName": "alignment(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Alignment",
+                "printedName": "UIKit.UIStackView.Alignment",
+                "usr": "c:@E@UIStackViewAlignment"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So11UIStackViewC11PMOUISetterE9alignmentyABXDSo0aB9AlignmentVF",
+            "mangledName": "$sSo11UIStackViewC11PMOUISetterE9alignmentyABXDSo0aB9AlignmentVF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "distribution",
+            "printedName": "distribution(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Distribution",
+                "printedName": "UIKit.UIStackView.Distribution",
+                "usr": "c:@E@UIStackViewDistribution"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So11UIStackViewC11PMOUISetterE12distributionyABXDSo0aB12DistributionVF",
+            "mangledName": "$sSo11UIStackViewC11PMOUISetterE12distributionyABXDSo0aB12DistributionVF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "backgroundColor",
+            "printedName": "backgroundColor(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So11UIStackViewC11PMOUISetterE15backgroundColoryABXDSo7UIColorCF",
+            "mangledName": "$sSo11UIStackViewC11PMOUISetterE15backgroundColoryABXDSo7UIColorCF",
+            "moduleName": "PMOUISetter",
+            "intro_iOS": "14.0",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult",
+              "Available"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIStackView",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "9.0",
+        "objc_name": "UIStackView",
+        "declAttributes": [
+          "Preconcurrency",
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BaseUISetterProtocol",
+            "printedName": "BaseUISetterProtocol",
+            "usr": "s:11PMOUISetter20BaseUISetterProtocolP",
+            "mangledName": "$s11PMOUISetter20BaseUISetterProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Shadow",
+            "printedName": "Shadow",
+            "usr": "s:11PMOUISetter6ShadowP",
+            "mangledName": "$s11PMOUISetter6ShadowP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIButton",
+        "printedName": "UIButton",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "tintColor",
+            "printedName": "tintColor(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So8UIButtonC11PMOUISetterE9tintColoryABXDSo7UIColorCF",
+            "mangledName": "$sSo8UIButtonC11PMOUISetterE9tintColoryABXDSo7UIColorCF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "title",
+            "printedName": "title(_:for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "State",
+                "printedName": "UIKit.UIControl.State",
+                "hasDefaultArg": true,
+                "usr": "c:@E@UIControlState"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So8UIButtonC11PMOUISetterE5title_3forABXDSSSg_So14UIControlStateVtF",
+            "mangledName": "$sSo8UIButtonC11PMOUISetterE5title_3forABXDSSSg_So14UIControlStateVtF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "titleFont",
+            "printedName": "titleFont(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIFont?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIFont",
+                    "printedName": "UIKit.UIFont",
+                    "usr": "c:objc(cs)UIFont"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So8UIButtonC11PMOUISetterE9titleFontyABXDSo6UIFontCSgF",
+            "mangledName": "$sSo8UIButtonC11PMOUISetterE9titleFontyABXDSo6UIFontCSgF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "titleColor",
+            "printedName": "titleColor(_:for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "State",
+                "printedName": "UIKit.UIControl.State",
+                "hasDefaultArg": true,
+                "usr": "c:@E@UIControlState"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So8UIButtonC11PMOUISetterE10titleColor_3forABXDSo7UIColorC_So14UIControlStateVtF",
+            "mangledName": "$sSo8UIButtonC11PMOUISetterE10titleColor_3forABXDSo7UIColorC_So14UIControlStateVtF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "titleShadowColor",
+            "printedName": "titleShadowColor(_:for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "State",
+                "printedName": "UIKit.UIControl.State",
+                "hasDefaultArg": true,
+                "usr": "c:@E@UIControlState"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So8UIButtonC11PMOUISetterE16titleShadowColor_3forABXDSo7UIColorCSg_So14UIControlStateVtF",
+            "mangledName": "$sSo8UIButtonC11PMOUISetterE16titleShadowColor_3forABXDSo7UIColorCSg_So14UIControlStateVtF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "image",
+            "printedName": "image(_:for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "State",
+                "printedName": "UIKit.UIControl.State",
+                "hasDefaultArg": true,
+                "usr": "c:@E@UIControlState"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So8UIButtonC11PMOUISetterE5image_3forABXDSo7UIImageCSg_So14UIControlStateVtF",
+            "mangledName": "$sSo8UIButtonC11PMOUISetterE5image_3forABXDSo7UIImageCSg_So14UIControlStateVtF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "backgroundImage",
+            "printedName": "backgroundImage(_:for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "State",
+                "printedName": "UIKit.UIControl.State",
+                "hasDefaultArg": true,
+                "usr": "c:@E@UIControlState"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So8UIButtonC11PMOUISetterE15backgroundImage_3forABXDSo7UIImageCSg_So14UIControlStateVtF",
+            "mangledName": "$sSo8UIButtonC11PMOUISetterE15backgroundImage_3forABXDSo7UIImageCSg_So14UIControlStateVtF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "backgroundColor",
+            "printedName": "backgroundColor(_:for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "State",
+                "printedName": "UIKit.UIControl.State",
+                "hasDefaultArg": true,
+                "usr": "c:@E@UIControlState"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So8UIButtonC11PMOUISetterE15backgroundColor_3forABXDSo7UIColorC_So14UIControlStateVtF",
+            "mangledName": "$sSo8UIButtonC11PMOUISetterE15backgroundColor_3forABXDSo7UIColorC_So14UIControlStateVtF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addAction",
+            "printedName": "addAction(_:action:for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Selector",
+                "printedName": "ObjectiveC.Selector",
+                "usr": "s:10ObjectiveC8SelectorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Event",
+                "printedName": "UIKit.UIControl.Event",
+                "usr": "c:@E@UIControlEvents"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So8UIButtonC11PMOUISetterE9addAction_6action3forABXDypSg_10ObjectiveC8SelectorVSo15UIControlEventsVtF",
+            "mangledName": "$sSo8UIButtonC11PMOUISetterE9addAction_6action3forABXDypSg_10ObjectiveC8SelectorVSo15UIControlEventsVtF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "contentEdgeInsets",
+            "printedName": "contentEdgeInsets(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIEdgeInsets",
+                "printedName": "UIKit.UIEdgeInsets",
+                "usr": "c:@S@UIEdgeInsets"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So8UIButtonC11PMOUISetterE17contentEdgeInsetsyABXDSo06UIEdgeE0VF",
+            "mangledName": "$sSo8UIButtonC11PMOUISetterE17contentEdgeInsetsyABXDSo06UIEdgeE0VF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "titleEdgeInsets",
+            "printedName": "titleEdgeInsets(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIEdgeInsets",
+                "printedName": "UIKit.UIEdgeInsets",
+                "usr": "c:@S@UIEdgeInsets"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So8UIButtonC11PMOUISetterE15titleEdgeInsetsyABXDSo06UIEdgeE0VF",
+            "mangledName": "$sSo8UIButtonC11PMOUISetterE15titleEdgeInsetsyABXDSo06UIEdgeE0VF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "imageEdgeInsets",
+            "printedName": "imageEdgeInsets(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIEdgeInsets",
+                "printedName": "UIKit.UIEdgeInsets",
+                "usr": "c:@S@UIEdgeInsets"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So8UIButtonC11PMOUISetterE15imageEdgeInsetsyABXDSo06UIEdgeE0VF",
+            "mangledName": "$sSo8UIButtonC11PMOUISetterE15imageEdgeInsetsyABXDSo06UIEdgeE0VF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "contentHorizontalAlignment",
+            "printedName": "contentHorizontalAlignment(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ContentHorizontalAlignment",
+                "printedName": "UIKit.UIControl.ContentHorizontalAlignment",
+                "usr": "c:@E@UIControlContentHorizontalAlignment"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So8UIButtonC11PMOUISetterE26contentHorizontalAlignmentyABXDSo016UIControlContentdE0VF",
+            "mangledName": "$sSo8UIButtonC11PMOUISetterE26contentHorizontalAlignmentyABXDSo016UIControlContentdE0VF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "bounceAnimation",
+            "printedName": "bounceAnimation(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "hasDefaultArg": true,
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So8UIButtonC11PMOUISetterE15bounceAnimationyySd_yycSgtF",
+            "mangledName": "$sSo8UIButtonC11PMOUISetterE15bounceAnimationyySd_yycSgtF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIButton",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIButton",
+        "declAttributes": [
+          "Preconcurrency",
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIControl",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIControl",
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BaseUISetterProtocol",
+            "printedName": "BaseUISetterProtocol",
+            "usr": "s:11PMOUISetter20BaseUISetterProtocolP",
+            "mangledName": "$s11PMOUISetter20BaseUISetterProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Shadow",
+            "printedName": "Shadow",
+            "usr": "s:11PMOUISetter6ShadowP",
+            "mangledName": "$s11PMOUISetter6ShadowP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIScrollView",
+        "printedName": "UIScrollView",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "showsVerticalScrollIndicator",
+            "printedName": "showsVerticalScrollIndicator(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So12UIScrollViewC11PMOUISetterE28showsVerticalScrollIndicatoryABXDSbF",
+            "mangledName": "$sSo12UIScrollViewC11PMOUISetterE28showsVerticalScrollIndicatoryABXDSbF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showsHorizontalScrollIndicator",
+            "printedName": "showsHorizontalScrollIndicator(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So12UIScrollViewC11PMOUISetterE30showsHorizontalScrollIndicatoryABXDSbF",
+            "mangledName": "$sSo12UIScrollViewC11PMOUISetterE30showsHorizontalScrollIndicatoryABXDSbF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "contentInset",
+            "printedName": "contentInset(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIEdgeInsets",
+                "printedName": "UIKit.UIEdgeInsets",
+                "usr": "c:@S@UIEdgeInsets"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So12UIScrollViewC11PMOUISetterE12contentInsetyABXDSo12UIEdgeInsetsVF",
+            "mangledName": "$sSo12UIScrollViewC11PMOUISetterE12contentInsetyABXDSo12UIEdgeInsetsVF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "indicatorStyle",
+            "printedName": "indicatorStyle(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IndicatorStyle",
+                "printedName": "UIKit.UIScrollView.IndicatorStyle",
+                "usr": "c:@E@UIScrollViewIndicatorStyle"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So12UIScrollViewC11PMOUISetterE14indicatorStyleyABXDSo0ab9IndicatorE0VF",
+            "mangledName": "$sSo12UIScrollViewC11PMOUISetterE14indicatorStyleyABXDSo0ab9IndicatorE0VF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "keyboardDismissMode",
+            "printedName": "keyboardDismissMode(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KeyboardDismissMode",
+                "printedName": "UIKit.UIScrollView.KeyboardDismissMode",
+                "usr": "c:@E@UIScrollViewKeyboardDismissMode"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So12UIScrollViewC11PMOUISetterE19keyboardDismissModeyABXDSo0ab8KeyboardeF0VF",
+            "mangledName": "$sSo12UIScrollViewC11PMOUISetterE19keyboardDismissModeyABXDSo0ab8KeyboardeF0VF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "contentInsetAdjustmentBehavior",
+            "printedName": "contentInsetAdjustmentBehavior(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ContentInsetAdjustmentBehavior",
+                "printedName": "UIKit.UIScrollView.ContentInsetAdjustmentBehavior",
+                "usr": "c:@E@UIScrollViewContentInsetAdjustmentBehavior"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So12UIScrollViewC11PMOUISetterE30contentInsetAdjustmentBehavioryABXDSo0ab7ContentefG0VF",
+            "mangledName": "$sSo12UIScrollViewC11PMOUISetterE30contentInsetAdjustmentBehavioryABXDSo0ab7ContentefG0VF",
+            "moduleName": "PMOUISetter",
+            "intro_iOS": "11.0",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult",
+              "Available"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "bounces",
+            "printedName": "bounces(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So12UIScrollViewC11PMOUISetterE7bouncesyABXDSbF",
+            "mangledName": "$sSo12UIScrollViewC11PMOUISetterE7bouncesyABXDSbF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "alwaysBounceVertical",
+            "printedName": "alwaysBounceVertical(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So12UIScrollViewC11PMOUISetterE20alwaysBounceVerticalyABXDSbF",
+            "mangledName": "$sSo12UIScrollViewC11PMOUISetterE20alwaysBounceVerticalyABXDSbF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "alwaysBounceHorizontal",
+            "printedName": "alwaysBounceHorizontal(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So12UIScrollViewC11PMOUISetterE22alwaysBounceHorizontalyABXDSbF",
+            "mangledName": "$sSo12UIScrollViewC11PMOUISetterE22alwaysBounceHorizontalyABXDSbF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isPagingEnabled",
+            "printedName": "isPagingEnabled(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So12UIScrollViewC11PMOUISetterE15isPagingEnabledyABXDSbF",
+            "mangledName": "$sSo12UIScrollViewC11PMOUISetterE15isPagingEnabledyABXDSbF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isScrollEnabled",
+            "printedName": "isScrollEnabled(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@PMOUISetter@@objc(cs)UIScrollView(im)isScrollEnabled:",
+            "mangledName": "$sSo12UIScrollViewC11PMOUISetterE15isScrollEnabledyABXDSbF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Dynamic",
+              "Preconcurrency",
+              "Custom",
+              "ObjC",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isDirectionalLockEnabled",
+            "printedName": "isDirectionalLockEnabled(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@PMOUISetter@@objc(cs)UIScrollView(im)isDirectionalLockEnabled:",
+            "mangledName": "$sSo12UIScrollViewC11PMOUISetterE24isDirectionalLockEnabledyABXDSbF",
+            "moduleName": "PMOUISetter",
+            "declAttributes": [
+              "Dynamic",
+              "Preconcurrency",
+              "Custom",
+              "ObjC",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIScrollView",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIScrollView",
+        "declAttributes": [
+          "Preconcurrency",
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BaseUISetterProtocol",
+            "printedName": "BaseUISetterProtocol",
+            "usr": "s:11PMOUISetter20BaseUISetterProtocolP",
+            "mangledName": "$s11PMOUISetter20BaseUISetterProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Shadow",
+            "printedName": "Shadow",
+            "usr": "s:11PMOUISetter6ShadowP",
+            "mangledName": "$s11PMOUISetter6ShadowP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/oguzhankarakus\/PMOUISetter\/PMOUISetter\/Setters\/BaseUISetterProtocol.swift",
+      "kind": "FloatLiteral",
+      "offset": 414,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/oguzhankarakus\/PMOUISetter\/PMOUISetter\/Setters\/BaseUISetterProtocol.swift",
+      "kind": "IntegerLiteral",
+      "offset": 459,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oguzhankarakus\/PMOUISetter\/PMOUISetter\/Setters\/BaseUISetterProtocol.swift",
+      "kind": "IntegerLiteral",
+      "offset": 502,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/oguzhankarakus\/PMOUISetter\/PMOUISetter\/Setters\/BaseUISetterProtocol.swift",
+      "kind": "IntegerLiteral",
+      "offset": 548,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/oguzhankarakus\/PMOUISetter\/PMOUISetter\/Setters\/BaseUISetterProtocol.swift",
+      "kind": "IntegerLiteral",
+      "offset": 596,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oguzhankarakus\/PMOUISetter\/PMOUISetter\/Extensions\/CALayer+Extension.swift",
+      "kind": "FloatLiteral",
+      "offset": 203,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/oguzhankarakus\/PMOUISetter\/PMOUISetter\/Extensions\/CALayer+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 221,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oguzhankarakus\/PMOUISetter\/PMOUISetter\/Extensions\/CALayer+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 237,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/oguzhankarakus\/PMOUISetter\/PMOUISetter\/Extensions\/CALayer+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 256,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/oguzhankarakus\/PMOUISetter\/PMOUISetter\/Extensions\/CALayer+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 277,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oguzhankarakus\/PMOUISetter\/PMOUISetter\/Setters\/UIButtonSetter.swift",
+      "kind": "FloatLiteral",
+      "offset": 2714,
+      "length": 3,
+      "value": "0.1"
+    }
+  ]
+}

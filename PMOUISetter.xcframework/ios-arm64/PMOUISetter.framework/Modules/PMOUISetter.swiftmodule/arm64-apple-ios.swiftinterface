@@ -1,0 +1,252 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name PMOUISetter
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+import Foundation
+@_exported import PMOUISetter
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+extension UIKit.UIImageView {
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func image(_ image: UIKit.UIImage?) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func tintColor(_ tintColor: UIKit.UIColor) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func contentMode(_ contentMode: UIKit.UIView.ContentMode) -> Self
+}
+extension UIKit.UICollectionView {
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func layout(_ layout: UIKit.UICollectionViewLayout) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func delegate(_ delegate: any UIKit.UICollectionViewDelegate) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func dataSource(_ dataSource: any UIKit.UICollectionViewDataSource) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func registerWithNib(_ cells: UIKit.UICollectionViewCell.Type...) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func registerWithNib(_ views: UIKit.UICollectionReusableView.Type..., forSupplementaryViewOfKind: Swift.String) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func scrollDirection(_ scrollDirection: UIKit.UICollectionView.ScrollDirection) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func estimatedItemSize(_ estimatedItemSize: CoreFoundation.CGSize) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func allowsSelection(_ allowsSelection: Swift.Bool) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func allowsMultipleSelection(_ allowsMultipleSelection: Swift.Bool) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func setVerticalScrollIndicatorVisible(_ showsVerticalScrollIndicator: Swift.Bool) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func setsHorizontalScrollIndicatorVisible(_ showsHorizontalScrollIndicator: Swift.Bool) -> Self
+}
+extension UIKit.UITextView {
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func text(_ text: Swift.String) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func font(_ font: UIKit.UIFont?) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func textColor(_ textColor: UIKit.UIColor?) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func textAlignment(_ textAlignment: UIKit.NSTextAlignment) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func isEditable(_ isEditable: Swift.Bool) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func isSelectable(_ isSelectable: Swift.Bool) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func attributedText(_ attributedText: Foundation.NSAttributedString) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func inputView(_ inputView: UIKit.UIView?) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func inputAccessoryView(_ inputAccessoryView: UIKit.UIView?) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func textContainerInset(_ textContainerInset: UIKit.UIEdgeInsets) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func cornerRadius(_ cornerRadius: CoreFoundation.CGFloat) -> Self
+}
+extension UIKit.UITextField {
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func text(_ text: Swift.String?) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func textColor(_ textColor: UIKit.UIColor?) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func font(_ font: UIKit.UIFont?) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func textAlignment(_ textAlignment: UIKit.NSTextAlignment) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func borderStyle(_ borderStyle: UIKit.UITextField.BorderStyle) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func placeholder(_ placeholder: Swift.String?) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func adjustsFontSizeToFitWidth(_ adjustsFontSizeToFitWidth: Swift.Bool) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func minimumFontSize(_ minimumFontSize: CoreFoundation.CGFloat) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func leftView(_ view: UIKit.UIView?, viewMode: UIKit.UITextField.ViewMode) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func rightView(_ view: UIKit.UIView?, viewMode: UIKit.UITextField.ViewMode) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func inputView(_ inputView: UIKit.UIView?) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func inputAccessoryView(_ inputAccessoryView: UIKit.UIView?) -> Self
+}
+extension UIKit.UITableView {
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func rowHeight(_ rowHeight: CoreFoundation.CGFloat) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func delegate(_ delegate: any UIKit.UITableViewDelegate) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func dataSource(_ dataSource: any UIKit.UITableViewDataSource) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func registerWithNib(_ cells: UIKit.UITableViewCell.Type...) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func registerWithNib(_ views: UIKit.UITableViewHeaderFooterView.Type...) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func sectionHeaderHeight(_ sectionHeaderHeight: CoreFoundation.CGFloat) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func sectionFooterHeight(_ sectionFooterHeight: CoreFoundation.CGFloat) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func estimatedRowHeight(_ estimatedRowHeight: CoreFoundation.CGFloat) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func estimatedSectionHeaderHeight(_ estimatedSectionHeaderHeight: CoreFoundation.CGFloat) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func estimatedSectionFooterHeight(_ estimatedSectionFooterHeight: CoreFoundation.CGFloat) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func separatorStyle(_ separatorStyle: UIKit.UITableViewCell.SeparatorStyle) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func separatorColor(_ separatorColor: UIKit.UIColor) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func separatorInset(_ separatorInset: UIKit.UIEdgeInsets) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func allowsMultipleSelection(_ allowsMultipleSelection: Swift.Bool) -> Self
+}
+extension UIKit.UILabel {
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func text(_ text: Swift.String?) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func textColor(_ textColor: UIKit.UIColor) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func font(_ font: UIKit.UIFont?) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func textAlignment(_ textAlignment: UIKit.NSTextAlignment) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func numberOfLines(_ numberOfLines: Swift.Int) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func attributedText(_ attributedText: Foundation.NSAttributedString) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func adjustsFontSizeToFitWidth(_ adjustsFontSizeToFitWidth: Swift.Bool) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func minimumScaleFactor(_ minimumScaleFactor: CoreFoundation.CGFloat) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func baselineAdjustment(_ baselineAdjustment: UIKit.UIBaselineAdjustment) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func lineBreakMode(_ lineBreakMode: UIKit.NSLineBreakMode) -> Self
+}
+public protocol BaseUISetterProtocol : PMOUISetter.Shadow {
+}
+public protocol Shadow : AnyObject {
+}
+extension PMOUISetter.Shadow where Self : UIKit.UIView {
+  @discardableResult
+  public func applySketchShadow(color: UIKit.UIColor = .black, alpha: Swift.Float = 0.5, x: CoreFoundation.CGFloat = 0, y: CoreFoundation.CGFloat = 2, blur: CoreFoundation.CGFloat = 4, spread: CoreFoundation.CGFloat = 0) -> Self
+}
+extension PMOUISetter.BaseUISetterProtocol where Self : UIKit.UIView {
+  @discardableResult
+  public func backgroundColor(_ backgroundColor: UIKit.UIColor? = .blue) -> Self
+  @discardableResult
+  public func cornerRadius(_ cornerRadius: CoreFoundation.CGFloat) -> Self
+  @discardableResult
+  public func alpha(_ alpha: CoreFoundation.CGFloat) -> Self
+  @discardableResult
+  public func isHidden(_ isHidden: Swift.Bool) -> Self
+  @discardableResult
+  public func isAccessibilityElement(_ isAccessibilityElement: Swift.Bool) -> Self
+  @discardableResult
+  public func accessibilityIdentifier(_ accessibilityIdentifier: Swift.String?) -> Self
+  @discardableResult
+  public func isUserInteractionEnabled(_ isUserInteractionEnabled: Swift.Bool) -> Self
+  @discardableResult
+  public func contentMode(_ mode: UIKit.UIView.ContentMode) -> Self
+}
+extension UIKit.UIView : PMOUISetter.BaseUISetterProtocol {
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func clipsToBounds(_ clipsToBounds: Swift.Bool) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func masksToBounds(_ masksToBounds: Swift.Bool) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func borderColor(_ borderColor: CoreGraphics.CGColor) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func borderWidth(_ borderWidth: CoreFoundation.CGFloat) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func isOpaque(_ isOpaque: Swift.Bool) -> Self
+}
+extension UIKit.UIStackView {
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func axis(_ axis: UIKit.NSLayoutConstraint.Axis) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func spacing(_ spacing: CoreFoundation.CGFloat) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func alignment(_ alignment: UIKit.UIStackView.Alignment) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func distribution(_ distribution: UIKit.UIStackView.Distribution) -> Self
+  @available(iOS 14.0, *)
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func backgroundColor(_ backgroundColor: UIKit.UIColor) -> Self
+}
+extension UIKit.UIButton {
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func tintColor(_ tintColor: UIKit.UIColor) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func title(_ title: Swift.String?, for state: UIKit.UIControl.State = .normal) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func titleFont(_ titleFont: UIKit.UIFont?) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func titleColor(_ titleColor: UIKit.UIColor, for state: UIKit.UIControl.State = .normal) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func titleShadowColor(_ titleShadowColor: UIKit.UIColor?, for state: UIKit.UIControl.State = .normal) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func image(_ image: UIKit.UIImage?, for state: UIKit.UIControl.State = .normal) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func backgroundImage(_ backgroundImage: UIKit.UIImage?, for state: UIKit.UIControl.State = .normal) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func backgroundColor(_ backgroundColor: UIKit.UIColor, for state: UIKit.UIControl.State = .normal) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func addAction(_ target: Any?, action: ObjectiveC.Selector, for controlEvents: UIKit.UIControl.Event) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func contentEdgeInsets(_ contentEdgeInsets: UIKit.UIEdgeInsets) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func titleEdgeInsets(_ titleEdgeInsets: UIKit.UIEdgeInsets) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func imageEdgeInsets(_ imageEdgeInsets: UIKit.UIEdgeInsets) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func contentHorizontalAlignment(_ contentHorizontalAlignment: UIKit.UIControl.ContentHorizontalAlignment) -> Self
+  @_Concurrency.MainActor @preconcurrency public func bounceAnimation(_ duration: Foundation.TimeInterval = 0.1, _ completion: (() -> Swift.Void)? = nil)
+}
+extension UIKit.UIScrollView {
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func showsVerticalScrollIndicator(_ showsVerticalScrollIndicator: Swift.Bool) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func showsHorizontalScrollIndicator(_ showsHorizontalScrollIndicator: Swift.Bool) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func contentInset(_ contentInset: UIKit.UIEdgeInsets) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func indicatorStyle(_ indicatorStyle: UIKit.UIScrollView.IndicatorStyle) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func keyboardDismissMode(_ keyboardDismissMode: UIKit.UIScrollView.KeyboardDismissMode) -> Self
+  @available(iOS 11.0, *)
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func contentInsetAdjustmentBehavior(_ contentInsetAdjustmentBehavior: UIKit.UIScrollView.ContentInsetAdjustmentBehavior) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func bounces(_ bounces: Swift.Bool) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func alwaysBounceVertical(_ alwaysBounceVertical: Swift.Bool) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func alwaysBounceHorizontal(_ alwaysBounceHorizontal: Swift.Bool) -> Self
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func isPagingEnabled(_ isPagingEnabled: Swift.Bool) -> Self
+  @discardableResult
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public func isScrollEnabled(_ isScrollEnabled: Swift.Bool) -> Self
+  @discardableResult
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public func isDirectionalLockEnabled(_ isDirectionalLockEnabled: Swift.Bool) -> Self
+}

@@ -40,4 +40,9 @@ extension UIView: BaseUISetterProtocol {
         return self
     }
     
+    @discardableResult
+    func semanticContentAttribute(_ attribute: UISemanticContentAttribute) -> Self {
+        self.semanticContentAttribute = attribute
+        return self
+    }
 }
